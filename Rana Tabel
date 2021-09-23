@@ -1,0 +1,67 @@
+<body bgcolor="grey"></body>
+<div class="table_responsive">
+  <table>
+    <thead>
+      <tr>
+        <th>Sl</th>
+        <th>Image</th>
+        <th>Name</th>
+        <th>Phone</th>
+        <th>Address</th>
+        <th>Action</th>
+      </tr>
+    </thead>
+		<style>
+			table, tr, th, td {
+			border:2px solid black;
+			border-collapse:collapse;
+			width: 400px;
+			}
+		</style>
+    <tbody>
+      <tr>
+        <td>01</td>
+        <td><img src="https://assets.codepen.io/2147066/internal/avatars/users/default.png?fit=crop&format=auto&height=100&version=1608664176&width=100" alt=""></td>
+        <td><strong>Park Jimin</strong></td>
+        <td>+62 81290xxxxxx</td>
+        <td>Seoul, Cikeas</td>
+        <td>
+          <span class="action_btn">
+            <a href="#">Edit</a>
+            <a href="#">Remove</a>
+          </span>
+        </td>
+      </tr>
+
+      <tr>
+        <td>02</td>
+        <td><img src="https://assets.codepen.io/5554447/internal/avatars/users/default.png?fit=crop&format=auto&height=100&version=1610026897&width=100" alt=""></td>
+        <td><strong>Kim Taehyung</strong></td>
+        <td>+62 81290xxxxxx</td>
+        <td>Seoul, Cikeas</td>
+        <td>
+          <span class="action_btn">
+            <a href="#">Edit</a>
+            <a href="#">Remove</a>
+          </span>
+        </td>
+      </tr>
+      
+
+      <tr>
+        <td>03</td>
+        <td><img src="https://scontent.fdac24-1.fna.fbcdn.net/v/t1.0-9/136733295_2531377467159979_834801194934572039_n.jpg?_nc_cat=106&ccb=2&_nc_sid=730e14&_nc_ohc=2-9gIMkATL0AX8068TK&_nc_ht=scontent.fdac24-1.fna&oh=06abd8efd43efbc5c7cae989dfdf9084&oe=601C3DFB" alt=""></td>
+        <td><strong>Jung Hoseok</strong></td>
+        <td>+62 81290xxxxxx</td>
+        <td>Seoul, Cikeas</td>
+        <td>
+          <span class="action_btn">
+            <a href="#">Edit</a>
+            <a href="#">Remove</a>
+          </span>
+        </td>
+      </tr>
+      
+    </tbody>
+  </table>
+</div>
